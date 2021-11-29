@@ -10,8 +10,9 @@ from typing import Any
 
 
 def get_or_set(collection: dict, key: Any) -> Any:
-    # TODO вставить код сюда
-    result = None
+    value = collection.get(key, 3)
+    collection[key] = value
+    result = collection.get(key)
     return result
 
 

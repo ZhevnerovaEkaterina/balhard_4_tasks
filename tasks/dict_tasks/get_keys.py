@@ -10,12 +10,13 @@ WORKERS = {
     'Баг Илья Андреевич': '07.09.1995',
     'Питонов Петр Сергеевич': '25.12.1991',
     'Асинхронова Алла Анатольевна': '05.01.1987',
+
 }
 
 
 def get_workers_names(workers: dict):
     # TODO вставить код сюда
-    result = None
+    result = workers.keys()
     return result
 
 
